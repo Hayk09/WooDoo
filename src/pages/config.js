@@ -1,8 +1,9 @@
   // import AuthLayout from "../layouts/AuthLayout";
 import DefaultLayout from "../layouts/DefaultLayout";
 import Homepage from "./HomePage";
-// import Login from "./Login"
-// import Register from "./Register"
+import Login from "./Login"
+import Register from "./Register/Register"
+import ForgottenPassword from "./ForgottenPassword";
 // import Profile from "./Profile"
 // import About from "./About"
 // import Contacts from "./Contacts"
@@ -24,20 +25,26 @@ const config = [
     layout: DefaultLayout,
     exact: true,
   },
-  // {
-  //   component: Login,
-  //   path: "/login",
-  //   secure: false,
-  //   layout:  DefaultLayout  ,
-  //   exact:  true,
-  // },
-  // {
-  //   component: Register,
-  //   path: "/register",
-  //   secure: false,
-  //   layout: DefaultLayout,
-  //   exact: false,
-  // },
+  {
+    component: Login,
+    path: "/login",
+    secure: false,
+    layout:  DefaultLayout  ,
+    exact:  false,
+  },
+  {
+    component: Register,
+    path: "/register",
+    secure: false,
+    layout: DefaultLayout,
+    exact: false,
+  },
+  {
+    component: ForgottenPassword,
+    path: "/forgotpassword",
+    secure: false,
+    layout: DefaultLayout,
+  },
   // {
   //   component: Profile,
   //   path: "/profile",

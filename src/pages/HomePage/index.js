@@ -25,6 +25,7 @@ const HomePage = () => {
             borderRadius="8px"
             border="2px"
             borderColor="#E09145"
+            color='#E09145'
             w="290px"
             height="36px" >
             EXPLORE
