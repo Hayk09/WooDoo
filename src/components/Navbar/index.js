@@ -13,7 +13,7 @@ const Navbar = () => {
                 </Link>
             </Box>
             <Box mt="1rem">
-                <HStack spacing="4rem">
+                <HStack spacing="4rem" >
                     <Link>
                         <Text fontWeight="500" color="white">About</Text>
                     </Link>
@@ -26,14 +26,14 @@ const Navbar = () => {
                 </HStack>
             </Box>
             <Box mt="1rem">
-                <InputGroup h="30px" maxW="271px">
-                    <Input borderColor="#C4C4C4" borderRadius="8px" />
+                <InputGroup >
+                    <Input borderColor="#C4C4C4" />
                     <InputRightElement children={<Search />} />
                 </InputGroup>
             </Box>
             <Box mr="4rem">
                 <HStack spacing="1rem">
-                    <Link>
+                    <Link to='/login'>
                         <Button
                             w="90px"
                             borderRadius="8px"
@@ -42,7 +42,7 @@ const Navbar = () => {
                             Sign In
                         </Button>
                     </Link>
-                    <Link>
+                    <Link to='/register'>
                         <Button
                             w="90px"
                             borderRadius="8px"
