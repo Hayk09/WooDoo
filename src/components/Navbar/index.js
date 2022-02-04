@@ -12,17 +12,19 @@ import {
     MenuList,
     Button
 } from "@chakra-ui/react"
-import { ReactComponent as Logo } from '../../assets/WD.svg'
+import { ReactComponent as Logo } from '../../assets/WooDoo.svg'
 import { ReactComponent as Burger } from '../../assets/burger.svg'
 
 const Navbar = () => {
     return (
         <Flex
             justifyContent='space-between'
-            alignItems="center">
+            alignItems="center"
+            w='full'
+        >
             <Box
                 ml="4rem"
-                mt="4rem" >
+                mt="3rem" >
                 <Menu >
                     <MenuButton
                         w='34px'
@@ -48,7 +50,7 @@ const Navbar = () => {
                     </MenuList>
                 </Menu>
             </Box>
-            <Box mt="1rem">
+            <Box mt="3rem">
                 <Link to='/'>
                   <Logo/>
                 </Link>
@@ -59,7 +61,7 @@ const Navbar = () => {
                     <InputRightElement children={<Search />} />
                 </InputGroup>
             </Box> */}
-            <Box mr="4rem">
+            <Box mr="4rem" mt='3rem'>
                 <Box>
                     <Link to='/login'>
                         <Button
