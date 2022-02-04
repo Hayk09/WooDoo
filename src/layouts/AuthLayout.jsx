@@ -6,6 +6,7 @@ const AuthLayout = ({ children }) => (
     alignItems="center"
     minHeight="100vh"
     width="100%"
+    position='relative'
   >
     {children}
   </Flex>

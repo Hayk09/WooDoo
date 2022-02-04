@@ -26,11 +26,11 @@ const Button = {
       textTransform: 'uppercase',
     },
 
-    transparent: {
-      fontWeight: "bold",
-      height: "unset",
-      color: "#000",
-    },
+    // transparent: {
+    //   fontWeight: "bold",
+    //   height: "unset",
+    //   color: "#000",
+    // },
   },
   sizes: {
     sm: { fontSize: "0.875rem", height: "30px" },

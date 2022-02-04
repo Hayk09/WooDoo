@@ -1,11 +1,27 @@
 import React from 'react';
-import { Box, Button, Link, Text, VStack } from '@chakra-ui/react'
+import { Link } from 'react-router-dom';
+import { 
+  Box, 
+  Button, 
+  Text, 
+  VStack,
+  Image 
+} from '@chakra-ui/react'
 import { ReactComponent as Woodoo } from '../../assets/WooDoo.svg'
+import Descover from './Descover';
+import Navbar from '../../components/Navbar';
+
 
 
 const HomePage = () => {
   return (
-    <Box ml="11rem" mt="17rem" w="313px">
+    <>
+    <Box>
+      <Image src='/assets/body.png' h='1100px' minW='full' position='absolute'/>
+      <Box position='relative'>
+      <Navbar/>
+      </Box>
+    <Box ml="11rem" mt="17rem" w="313px" position='relative'>
       <Woodoo />
       <Text
         fontWeight="275"
@@ -31,8 +47,11 @@ const HomePage = () => {
             EXPLORE
           </Button>
         </Link>
-      </VStack>
+     </VStack>
     </Box>
+    </Box>
+    <Descover/>
+    </>
   )
 
 };

@@ -13,11 +13,12 @@ const theme = extendTheme({
   styles: {
     global: {
       "html, body": {
-        backgroundImage: "/assets/body.png" ,
-        height: '100%',
-        width: '100%',
-        backgroundPosition: "center",
-        backgroundSize: "cover",
+        // backgroundImage: "/assets/body.png" ,
+        // height: '900px',
+        // width: '100%',
+        // displey: "no-repeat",
+        // backgroundPosition: "center",
+        // backgroundSize: "cover",
         fontSize: "1rem",
         color: "#000",
       },
