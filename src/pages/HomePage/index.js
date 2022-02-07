@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <>
     <Box>
-      <Image src='/assets/body.png' h='1100px' minW='full' position='absolute'/>
+      <Image src='/assets/body.png' h='1100px' w='full' position='absolute'/>
       <Box position='relative'>
       <Navbar/>
       </Box>
@@ -50,9 +50,10 @@ const HomePage = () => {
         </Link>
      </VStack>
     </Box>
-    </Box>
     <Descover/>
     <Swip/>
+    </Box>
+
     </>
   )
 

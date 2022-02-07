@@ -43,7 +43,7 @@ const Login = () => {
 
   return (
     <>
-      <Flex justifyContent="center" w="full">
+      <Flex justifyContent="center" w="full"  bg='#292C35'>
         <Box w="full" maxW="600px" mt='6rem'>
           <form noValidate onSubmit={handleSubmit(submit)}>
             <VStack spacing="5" px="8">

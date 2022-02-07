@@ -15,7 +15,7 @@ import Swip from './Swip';
 const Descover = () => {
   return (
     <Box>
-      <Box w='full' h='full' mt='30rem' ml='6rem'>
+      <Box w='full' h='full' mt='30rem' ml='6rem' mr='6rem'>
         <Text
           fontWeight='700'
           fontSize='34px'

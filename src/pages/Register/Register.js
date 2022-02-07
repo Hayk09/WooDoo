@@ -45,7 +45,7 @@ const Register = () => {
 
   return (
     <>
-      <Flex justifyContent="center" w="full">
+      <Flex justifyContent="center" w="full" bg='#292C35' h='full'>
         <Box w="full" maxW="600px" mt='6rem'>
           <form noValidate onSubmit={handleSubmit(submit)}>
             <VStack px="8" spacing="5">
@@ -85,6 +85,7 @@ const Register = () => {
                 type="password"
               />
               <Select
+                color='white'
                 placeholder="Country"
                 isInvalid={!!errors.country}
                 {...register("country", { required: true })}

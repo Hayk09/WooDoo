@@ -10,11 +10,12 @@ import { ReactComponent as Facebook } from '../../assets/f.svg'
 const Footer = () => {
   return (
     <Flex
+    mt={{ base: 4, md: 0 }} ml={{ md: 6 }}
       bg='#292C35'
       h='270px'
       justifyContent='space-between'
       alignItems='center'>
-      <Box ml='4rem'>
+      <Box ml='4rem'  mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
         <Text
           fontWeight='700'
           color='white'
@@ -27,7 +28,7 @@ const Footer = () => {
           Phone numbers: +374 98 900 309, +374 430977373
         </Text>
       </Box>
-      <Box>
+      <Box >
         <Link to='/'>
           <Woodo />
         </Link>
@@ -49,6 +50,7 @@ const Footer = () => {
           mb='2rem' >
           Find us in social media
         </Text>
+  
         <HStack spacing='2rem'>
           <Link>
             <Pinterest />
