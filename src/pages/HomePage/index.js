@@ -10,6 +10,7 @@ import {
 import { ReactComponent as Woodoo } from '../../assets/WooDoo.svg'
 import Descover from './Descover';
 import Navbar from '../../components/Navbar';
+import Swip from './Swip';
 
 
 
@@ -51,6 +52,7 @@ const HomePage = () => {
     </Box>
     </Box>
     <Descover/>
+    <Swip/>
     </>
   )
 

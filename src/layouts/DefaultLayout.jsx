@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex, Box } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 // import Footer from "../components/Footer";
 
 const DefaultLayout = ({ children }) => (
@@ -8,7 +9,7 @@ const DefaultLayout = ({ children }) => (
     <Box position="relative" flex="1">
       {children}
     </Box>
-   
+   <Footer/>
   </Flex>
 );
 

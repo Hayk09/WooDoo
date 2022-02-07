@@ -1,4 +1,4 @@
-  // import AuthLayout from "../layouts/AuthLayout";
+ import AuthLayout from "../layouts/AuthLayout";
 import DefaultLayout from "../layouts/DefaultLayout";
 import Homepage from "./HomePage";
 import Login from "./Login"
@@ -45,6 +45,7 @@ const config = [
     secure: false,
     layout: DefaultLayout,
   },
+
   // {
   //   component: Profile,
   //   path: "/profile",
