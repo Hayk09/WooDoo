@@ -85,7 +85,7 @@ const Register = () => {
                 type="password"
               />
               <Select
-                color='white'
+                color='red'
                 placeholder="Country"
                 isInvalid={!!errors.country}
                 {...register("country", { required: true })}

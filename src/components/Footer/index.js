@@ -10,7 +10,7 @@ import { ReactComponent as Facebook } from '../../assets/f.svg'
 const Footer = () => {
   return (
     <Flex
-    mt={{ base: 4, md: 0 }} ml={{ md: 6 }}
+    // mt={{ base: 4, md: 0 }} ml={{ md: 6 }}
       bg='#292C35'
       h='270px'
       justifyContent='space-between'
