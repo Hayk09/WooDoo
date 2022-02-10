@@ -71,7 +71,7 @@ const Descover = () => {
       </Box>
       <Flex
         mt='2rem'
-        w={{base:"390px",md:"full"}}
+        w='full'
         bg='#292C35'
         alignItems='center'
         justifyContent='center'>
