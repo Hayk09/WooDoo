@@ -1,24 +1,24 @@
 import { extendTheme } from "@chakra-ui/react";
 import Button from "./button";
 import { createBreakpoints } from '@chakra-ui/theme-tools'
-const breakpoints = createBreakpoints({
-  sm: '320px',
-  md: '768px',
-  lg: '960px',
-  xl: '1200px',
-  '2xl': '1536px',
-})
+// const breakpoints = createBreakpoints({
+//   sm: '320px',
+//   md: '768px',
+//   lg: '960px',
+//   xl: '1200px',
+//   '2xl': '1536px',
+// })
 const theme = extendTheme({
-  breakpoints,
+  // breakpoints,
   styles: {
     global: {
       "html, body": {
-        // backgroundImage: "/assets/body.png" ,
-        // height: '900px',
-        // width: '100%',
-        // displey: "no-repeat",
-        // backgroundPosition: "center",
-        // backgroundSize: "cover",
+        backgroundImage: "/assets/body.png" ,
+        height: '600px',
+        width: '100%',
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
         fontSize: "1rem",
         color: "#000",
       },
