@@ -18,7 +18,7 @@ const Button = {
       bg: '#38A169',
     },
     pink: {
-      bg: "#885809",
+      bg: " #292C35",
     },
 
     gradient: {

@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import {
     Flex,
     Box,
-    Text,
-    HStack,
     Menu,
     MenuButton,
     MenuItem,
@@ -50,19 +48,19 @@ const Navbar = () => {
                     </MenuList>
                 </Menu>
             </Box>
-            <Box mt="3rem">
+            <Box 
+              mt="3rem" 
+          
+            >
                 <Link to='/'>
                   <Logo/>
                 </Link>
             </Box>
-            {/* <Box mt="1rem">
-                <InputGroup >
-                    <Input borderColor="#C4C4C4" />
-                    <InputRightElement children={<Search />} />
-                </InputGroup>
-            </Box> */}
             <Box mr="4rem" mt='3rem'>
-                <Box>
+                <Box  
+                  display={{base: "none", md: "hidden"}}
+                // visibility={{base:"colapse", md: "visible"}}
+                >
                     <Link to='/login'>
                         <Button
                             w="90px"
