@@ -10,7 +10,7 @@ const DefaultLayout = ({ children }) => (
     <Box position="relative" flex="1">
       {children}
     </Box>
-   {/* <Footer/> */}
+   <Footer/>
   </Flex>
 );
 

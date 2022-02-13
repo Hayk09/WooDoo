@@ -82,6 +82,7 @@ export default ({slides}) => {
                 </Container>
               </Flex>
               <Image
+              overflow={}
                 objectFit="cover"
                 src={slide.cover.file.url}
                 alt="FSM News"

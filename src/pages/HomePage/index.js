@@ -55,7 +55,7 @@ const HomePage = () => {
         </Stack>
       </Box>
       <Descover/>
-      {/* <Swipers/> */}
+      <Swipers/>
     </Box>
 
 
