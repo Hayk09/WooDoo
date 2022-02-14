@@ -45,8 +45,8 @@ const Register = () => {
 
   return (
     <>
-      <Flex justifyContent="center" w="full" h='full'>
-        <Box w="full" maxW="600px" mt='6rem'>
+      <Flex justifyContent="center" w="full" h="full">
+        <Box w="full" maxW="600px" mt="6rem">
           <form noValidate onSubmit={handleSubmit(submit)}>
             <VStack px="8" spacing="5">
               <Input
@@ -85,7 +85,7 @@ const Register = () => {
                 type="password"
               />
               <Select
-                color='#E09145'
+                color="#E09145"
                 placeholder="Country"
                 isInvalid={!!errors.country}
                 {...register("country", { required: true })}
@@ -97,7 +97,9 @@ const Register = () => {
                 ))}
               </Select>
 
-              <Button type="submit" color='#E09145'>Register</Button>
+              <Button type="submit" color="#E09145">
+                Register
+              </Button>
             </VStack>
           </form>
         </Box>
