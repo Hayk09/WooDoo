@@ -7,16 +7,16 @@ import SidebarContent from "../Sidebar";
 
 const Navbar = () => {
   return (
-    <Flex justifyContent="space-between" alignItems="center" w="full">
-      <Box ml="4rem" mt="3rem">
+    <Flex justifyContent='space-between'  py={8} px={8} alignItems="center" w="full">
+      <Box >
         <SidebarContent />
       </Box>
-      <Box mt="3rem">
+      <Box >
         <Link to="/">
           <Logo />
         </Link>
       </Box>
-      <Box mr="4rem" mt="3rem">
+      <Box >
         <Box
           display={{ base: "none", md: "hidden" }}
           // visibility={{base:"colapse", md: "visible"}}

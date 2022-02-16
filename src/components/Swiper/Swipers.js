@@ -13,7 +13,7 @@ const Swipers = () => {
       <Box display={{ base: "none", md: "flex" }}>
         <Swiper
           slidesPerView={4}
-          spaceBetween={1}
+          spaceBetween={8}
           slidesPerGroup={2}
           loop={true}
           loopFillGroupWithBlank={true}
@@ -64,7 +64,7 @@ const Swipers = () => {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+          // navigation={true}
           modules={[Pagination, Scrollbar, Navigation]}
           Scrollbar={{ draggable: true }}
           className="mySwiper"

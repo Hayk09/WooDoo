@@ -7,8 +7,9 @@ import Swipers from "../../components/Swiper/Swipers";
 
 const HomePage = () => {
   return (
-    <Box>
+    <Box px={{base:"0.5rem", md:"0"}}>
       <Box
+        // px={{base:"2rem", md:"4rem"}}
         ml={{ base: "4rem", md: "11rem" }}
         w={{ base: "320px", md: "400px" }}
         mt="8rem"
@@ -19,7 +20,7 @@ const HomePage = () => {
         >
           <Woodoo />
           <Text
-            fontSize={{ base: "16px", md: "28px" }}
+            fontSize={{ base: "16px", md: "26px" }}
             fontWeight="275"
             color="white"
             mt={6}
@@ -28,7 +29,7 @@ const HomePage = () => {
             Design Studio
           </Text>
           <Text
-            fontSize={{ base: "16px", md: "28px" }}
+            fontSize={{ base: "16px", md: "26px" }}
             fontWeight="300"
             color="white"
           >
@@ -41,7 +42,7 @@ const HomePage = () => {
               border="2px"
               borderColor="#E09145"
               color="#E09145"
-              w={{ base: "275px", md: "full" }}
+              w={{ base:"250px", md:"345px" }}
               height="36px"
             >
               EXPLORE

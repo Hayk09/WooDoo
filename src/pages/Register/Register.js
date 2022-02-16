@@ -46,7 +46,7 @@ const Register = () => {
   return (
     <>
       <Flex justifyContent="center" w="full" h="full">
-        <Box w="full" maxW="600px" mt="6rem">
+        <Box w="full" maxW="600px" mt={{base:"1rem",md:"5rem"}}>
           <form noValidate onSubmit={handleSubmit(submit)}>
             <VStack px="8" spacing="5">
               <Input

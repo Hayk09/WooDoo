@@ -25,7 +25,7 @@ const theme = extendTheme({
     },
   },
   fonts: {
-    body: "Roboto, sans-serif",
+    body: "Lato, sans-serif",
     heading: "Roboto, sans-serif",
   },
   components: {
