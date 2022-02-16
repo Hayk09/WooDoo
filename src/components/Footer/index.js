@@ -13,41 +13,37 @@ const Footer = () => {
       <Flex
         bg="#292C35"
         h="full"
-        justifyContent="space-between"
-        alignItems="center"
+        py={8} 
+        px={8} 
+        justifyContent='space-between'
+        //  w="full"
       >
-        <Box ml={{ base: "2rem", md: "4rem" }} mt="3rem">
+        <Box >
           <Text
-            fontWeight="700"
-            textDecoration={{ base: "column", md: "row" }}
-            fontSize={{ base: "10px", md: "18px" }}
+            fontSize={{ base: "14px", md: "18px" }}
             color="white"
             mb="2rem"
           >
             Address: Dzoraxbyur, Barekamutyan 7
           </Text>
           <Text
-            fontSize={{ base: "10px", md: "18px" }}
-            textDecoration={{ base: "column", md: "row" }}
-            fontWeight="700"
+            fontSize={{ base: "14px", md: "18px" }}
             color="white"
           >
-            Phone numbers: +374 98 900 309, +374 430977373
+            Phone numbers: +374 430977373
           </Text>
         </Box>
         <Stack direction={{ base: "column", md: "row" }}>
           <Box>
             <Text
-              fontSize={{ base: "10px", md: "18px" }}
-              textDecoration={{ base: "column", md: "row" }}
-              mt="2rem"
-              fontWeight="700"
+              fontSize={{ base: "14px", md: "18px" }}
+              // mt="2rem"
               color="white"
             >
               Terms of Use Privacy Policy
             </Text>
             <Text
-              fontSize={{ base: "10px", md: "18px" }}
+              fontSize={{ base: "14px", md: "18px" }}
               mt="2rem"
               fontWeight="700"
               color="white"
@@ -60,11 +56,9 @@ const Footer = () => {
         <Box display={{ base: "none", md: "initial" }}>
           <Text
             fontSize={{ base: "10px", md: "18px" }}
-            textDecoration={{ base: "column", md: "row" }}
-            fontWeight="700"
             color="white"
-            mr="4rem"
-            mb="2rem"
+            // mr="4rem"
+             mb={{base:"full", md:"2rem"}}
           >
             Find us in social media
           </Text>
