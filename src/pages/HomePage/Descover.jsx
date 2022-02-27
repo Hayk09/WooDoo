@@ -16,7 +16,7 @@ const Descover = () => {
     <>
       <Box
         w="full"
-        mt={{ base: "10rem", md: "14rem" }}
+        mt={{ base: "10rem", md: "16rem" }}
         ml={{ base: "full", md: "6rem" }}
         mr={{ base: "full", md: "6rem"}}
         direction={{ base: "column", md: "row" }}
@@ -25,9 +25,9 @@ const Descover = () => {
           fontWeight="700"
           align={{ base: "center", md: "left" }}
           fontSize={{ base: "18px", md: "26px" }}
-          color="red"
-          mb="2rem"
-          mt='2rem'
+          color="black"
+          mb={{base: '1rem', md: '4rem'}}
+          // mt={{base: '1rem', md: '2rem'}}
         >
           Materials that we use
         </Text>
