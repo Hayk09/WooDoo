@@ -25,8 +25,9 @@ const Descover = () => {
           fontWeight="700"
           align={{ base: "center", md: "left" }}
           fontSize={{ base: "18px", md: "26px" }}
-          color="black"
+          color="red"
           mb="2rem"
+          mt='2rem'
         >
           Materials that we use
         </Text>
