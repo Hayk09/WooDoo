@@ -20,7 +20,7 @@ const Swipers = () => {
           pagination={{
             clickable: true,
           }}
-          // navigation={true}
+          navigation={true}
           modules={[Pagination, Scrollbar, Navigation]}
           Scrollbar={{ draggable: true }}
           className="mySwiper"
