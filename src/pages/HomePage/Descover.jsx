@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 import {
   Box,
   Text,
-  HStack,
   Image,
   Button,
   Flex,
-  Container,
   Stack,
+  Container,
 } from "@chakra-ui/react";
+import Swipers from "../../components/Swiper/Swipers";
 
 const Descover = () => {
   return (
     <>
-      <Box
+      {/* <Box
         w="full"
         mt={{ base: "10rem", md: "16rem" }}
         ml={{ base: "full", md: "6rem" }}
-        mr={{ base: "full", md: "6rem"}}
+        mr={{ base: "full", md: "6rem" }}
         direction={{ base: "column", md: "row" }}
       >
         <Text
@@ -26,7 +26,7 @@ const Descover = () => {
           align={{ base: "center", md: "left" }}
           fontSize={{ base: "18px", md: "26px" }}
           color="black"
-          mb={{base: '1rem', md: '4rem'}}
+          mb={{ base: "1rem", md: "4rem" }}
           // mt={{base: '1rem', md: '2rem'}}
         >
           Materials that we use
@@ -52,16 +52,15 @@ const Descover = () => {
           />
         </Stack>
         <Flex justifyContent="center" mt="3rem">
-          <Button 
-            w={{base:"130px", md:"300px"}} 
+          <Button
+            w={{ base: "130px", md: "300px" }}
             // h={{base:"10px", md:"full"}}
-            fontSize={{base:"10px", md:"15px"}} 
-            variant='pink' 
-            bg='white' 
-            border='2px' 
-            color="black" 
-            
-            >
+            fontSize={{ base: "10px", md: "15px" }}
+            variant="pink"
+            bg="white"
+            border="2px"
+            color="black"
+          >
             DESCOVER
           </Button>
         </Flex>
@@ -74,18 +73,21 @@ const Descover = () => {
         >
           Best offer of day
         </Text>
+      </Box> */}
+      <Box mt={{ base: "8rem", md: "15rem" }}>
+        <Swipers />
       </Box>
+
       <Flex
-        mt="2rem"
+        mt="1rem"
         w="full"
         bg="#292C35"
         alignItems="center"
         justifyContent="center"
       >
-        <Box w={{base:"320px", md:"1200px"}}>
-        <Image src="/assets/pic4.png" alt="pic4" />
+        <Box w={{ base: "320px", md: "1200px" }}>
+          <Image src="/assets/pic4.png" alt="pic4" />
         </Box>
-
       </Flex>
       <Text
         color="black"
